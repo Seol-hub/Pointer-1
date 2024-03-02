@@ -4,24 +4,24 @@
 typedef struct std{}; <br/>
 
 ## intput
-a * list = NULL, *prev = NULL, * p = NULL;
-p = (std*)malloc(sizeof(std));
+std * list = NULL, * prev = NULL, * p = NULL; <br/>
+p = (std*)malloc(sizeof(std)); <br/>
 
-p-<link = NULL;
-if(!list) list = p;
-else prev->link = p;
-prev = p;
+p->link = NULL; <br/>
+if(!list) list = p; <br/>
+else prev->link = p; <br/>
+prev = p; <br/>
 
 ## output
-p = list;
-while(p){
-  (~)
-  p = p->link;
+p = list; <br/>
+while(p){ <br/>
+  (~) <br/>
+  p = p->link; <br/>
 
 ## free node
-std * pa = list
-while(pa){
-  list = list->link;
-  free(pa);
-  pa = list;
+std * pa = list <br/>
+while(pa){ <br/>
+  list = list->link; <br/>
+  free(pa); <br/>
+  pa = list; <br/>
 }
