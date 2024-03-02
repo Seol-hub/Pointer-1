@@ -14,9 +14,9 @@ prev = p; <br/>
 
 ## output
 p = list; <br/>
-while(p){ <br/>
-  (~) <br/>
-  p = p->link; <br/>
+while(p) { <br/>
+p = p->link; <br/>
+} <br/>
 
 ## free node
 std * pa = list <br/>
