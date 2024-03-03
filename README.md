@@ -1,4 +1,4 @@
-## // Source Code //
+## Source Code
 
 ## Struct
 typedef struct std{}; <br/>
